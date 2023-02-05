@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <CATALOG>
-<html>
-<head>
-<title>TimeTable</title>
-</head>
 
 <body align="center"> CRESCENDO INTERNATIONAL COLLEGE 
 <br>TIMETABLE FOR SEMESTER JANUARY 2023 
@@ -45,5 +41,5 @@
 <td></td>
 <th>DCS 3003
   </th>
+  </table>
 
-</html>
