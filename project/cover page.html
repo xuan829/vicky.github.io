@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Uni</title>
+<link rel="stylesheet" href="background.css">
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.color = "red";
+}
+
+</script>
+
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+
+<body bgcolor="azure">
+<nav class="navbar">
+<img class="logo" src="logo.jpg">
+
+<ul>
+<li><a href="course.html">Requirement and Detail</a>
+<li id="demo" onclick="myFunction()"><a href="Psychology.html">Psychology in Reading University</a>
+<li><a href="project form.html">Register 1</a>
+<li><a href="example.html">Register 2</a>
+</ul>
+</nav>
+
+<div class="center">
+<br><h1>APRIL 2023 INTAKE</h1>
+<h2>BSc Psychology</h2>
+
+University of Reading Malaysia 
+<br>Address : Persiaran Graduan, Kota Ilmu, EduCity, 79200 Iskandar Puteri, Johor, Malaysia.
+<br>Tel : +60 (7) 268 6205
+<br>
+WhatsApp / Mobile :
+<a href="+60 (16) 7725 400">+60 (16) 7725 400</a>
+(click the WhatsApp number to contact us immediately)
+<br>
+Email:<a href="mailto:my.enquiry@reading.edu.my">
+<img src=email.gif width=50 height=50 align=center>
+</a>
+
+<h4>SOCIAL MEDIA</h4>
+<a href="https://www.facebook.com/uniofreadingmalaysia?ref=ts&fref=ts" target="_blank">
+<img src=fb.jpg width=60 height=50 align=center>
+</a>
+
+<a href="https://twitter.com/UoRMalaysia" target="_blank">
+<img src=twitter.jpg width=50 height=50 align=center>
+</a>
+
+<a href="https://www.linkedin.com/school/university-of-reading-malaysia/" target="_blank">
+<img src=linked.jpg width=50 height=50 align=center>
+</a>
+</p>
+
+<br>
+<div class="dropdown">
+  <button id="myBtn" class="dropbtn">SOCIAL MEDIA</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://www.linkedin.com/school/university-of-reading-malaysia/" target="_blank">
+<img src=linked.jpg width=50 height=50 align=center> LINKED </a>
+    <a href="https://twitter.com/UoRMalaysia" target="_blank">
+<img src=twitter.jpg width=50 height=50 align=center> TWITTER </a>
+    <a href="https://www.facebook.com/uniofreadingmalaysia?ref=ts&fref=ts" target="_blank">
+<img src=fb.jpg width=60 height=50 align=center> FACEBOOK </a>
+  </div>
+</div>
+
+<script>
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
+
+</div>
+</div>
+</body>
+</html>
+
+
+
+

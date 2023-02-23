@@ -1,0 +1,21 @@
+table {
+font-family:Times New Roman;
+background: #cce5ff;  
+font-size:15pt;
+}
+caption {
+text-align:center;
+font-weight:bold;
+font-size:20pt;
+height:50px;
+}
+th,td {
+padding:20px;
+height:25%;
+}
+td.title {
+font-weight:bold;
+font-size:large;
+background-color: #66b2ff;
+color: black;
+}

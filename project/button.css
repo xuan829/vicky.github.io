@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous {
+height: 25px;
+width: 65px;
+font-size: 18px;
+font-weight: bold;
+background: white;
+border:1px solid #cc0000;
+border-radius: 15px;
+}
+
+.next {
+height: 25px;
+width: 35px;
+font-size: 18px;
+font-weight: bold;
+background: white;
+border:1px solid #cc0000;
+border-radius: 15px;
+}
+
+.submit {
+height: 35px;
+width: 75px;
+font-size: 16px;
+font-weight: bold;
+background: white;
+border:1px solid #cc0000;
+border-radius: 10px;
+}
+

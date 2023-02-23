@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Form for register</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="button.css">
+
+<script>
+function validateForm(){
+let x = document.forms["MyFirstForm"]["username"].value;
+if (x == ""){
+alert("Please provide your Name!");
+return false;
+}
+
+}
+</script>
+
+</head>
+<body topmargin=35>
+<center>
+<form name=MyFirstForm onsubmit="return validateForm()">
+<table>
+<caption>Student Family Details</caption>
+
+<tr>
+<td width=30 class='title'>Father Name:</td>
+<td><input type=text name=username placeholder=Fullname></td>
+</tr>
+<tr>
+<td class='title'>IC</td>
+<td><input type=text name=Father IC placeholder=730102-01-xxxx></td>
+</tr>
+<tr>
+<td class='title'>Contact Number:</td>
+<td><input type=text name=contact number placeholder=016-732xxxx></td>
+</tr>
+<tr>
+<td class='title'>Occupation</td>
+<td><input type=text name=occupation placeholder=teacher></td>
+</tr>
+<tr>
+<td class='title'>Income</td>
+<td>
+<input type=checkbox name=income value=no income> No Income
+<input type=checkbox name=income value=below 1000> Below 1000
+<input type=checkbox name=income value=1000-2000> 1000-2000
+<input type=checkbox name=income value=2000-3000> 2000-3000
+<input type=checkbox name=income value=3000-4000> 3000-4000
+<input type=checkbox name=income value=above 4000> Above 4000
+</td></tr>
+
+<tr>
+<td class='title'>Mother Name:</td>
+<td><input type=text name=momname placeholder=Fullname></td>
+</tr>
+<tr>
+<td class='title'>IC</td>
+<td><input type=text name=Mother IC placeholder=730102-01-xxxx></td>
+</tr>
+<tr>
+<td class='title'>Contact Number:</td>
+<td><input type=text name=contact number placeholder=016-732xxxx></td>
+</tr>
+<tr>
+<td class='title'>Occupation</td>
+<td><input type=text name=occupation placeholder=teacher></td>
+</tr>
+<tr>
+<td class='title'>Income</td>
+<td>
+<input type=checkbox name=income value=no income> No Income
+<input type=checkbox name=income value=below 1000> Below 1000
+<input type=checkbox name=income value=1000-2000> 1000-2000
+<input type=checkbox name=income value=2000-3000> 2000-3000
+<input type=checkbox name=income value=3000-4000> 3000-4000
+<input type=checkbox name=income value=above 4000> Above 4000
+</td></tr>
+
+<tr>
+<td class='title'>Emergency</td>
+<td>Name:<input type=text name=Name>
+Relationship:<input type=text name=relationship>
+Contact Number:<input type=text name=contact number>
+</td></tr>
+
+</table>
+<br><br>
+<a href="project form.html" class="previous">Previous</a>
+<button class="submit">Submit
+</td></tr><br><br>
+</form></center>
+</body></html>
