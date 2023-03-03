@@ -1,0 +1,31 @@
+.navbar {
+background: rgba(0,0,0,0.5);
+}
+
+.logo {
+width: 140px;
+padding: 20px 90px;
+}
+
+.navbar ul {
+float: right;
+margin-right: 20px;
+margin-top:10;
+}
+
+.navbar ul li {
+display: inline-block;
+line-height: 80px;
+}
+
+.navbar ul li a {
+text-decoration: none;
+color: white;
+font-size: 15px;
+padding: 13px;
+font-family: 'Roboto';
+}
+
+
+
+
